@@ -1,13 +1,4 @@
 <?php
-
-    //$mysql_error = '';
-    //if(!$dump = pmd_mysql_dump('localhost', 'root', '', 'test',&$mysql_error))
-    //   echo $mysql_error;
-    //else
-    //   echo $dump;
-    
-    //if(!pmd_mysql_dump_import('localhost', 'root', '', 'test',$dump,&$mysql_error))
-    //   echo $mysql_error;
     
     function pmd_mysql_dump($db_host, $db_username, $db_password, $db_name, $last_result = NULL) {
         if(!$db_connection) :
